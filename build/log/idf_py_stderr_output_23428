@@ -1,0 +1,17 @@
+Command: cmake -G Ninja -B C:\Users\mansu\OneDrive\Documents\Projects\ESP_IDF\L02\littlefs_esp-idf\build -DPYTHON_DEPS_CHECKED=1 -DPYTHON=C:\Espressif\tools\python\v6.0\venv\Scripts\python.exe -DESP_PLATFORM=1 -DCCACHE_ENABLE=False C:\Users\mansu\OneDrive\Documents\Projects\ESP_IDF\L02\littlefs_esp-idf
+CMake Error at C:/esp/v6.0/esp-idf/tools/cmake/build.cmake:695 (message):
+  WARNING: Component "espressif/esp_littlefs" not found
+
+  ERROR: Version solving failed:
+
+      - no versions of espressif/esp_littlefs match ^1.14.0
+      - project depends on espressif/esp_littlefs (^1.14.0)
+
+  Result: Because project depends on espressif/esp_littlefs (^1.14.0) which
+  doesn't match any versions, version solving failed.
+
+Call Stack (most recent call first):
+  C:/esp/v6.0/esp-idf/tools/cmake/project.cmake:742 (idf_build_process)
+  CMakeLists.txt:8 (project)
+
+

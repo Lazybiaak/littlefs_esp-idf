@@ -1,0 +1,2 @@
+Command: ninja all
+ninja: error: 'C:/Users/mansu/OneDrive/Documents/Projects/ESP_IDF/L02/littlefs_esp-idf/components/littlefs_esp-idf/littlefs_esp-idf.c', needed by 'esp-idf/littlefs_esp-idf/CMakeFiles/__idf_littlefs_esp-idf.dir/littlefs_esp-idf.c.obj', missing and no known rule to make it
